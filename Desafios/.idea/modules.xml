@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Desafios/Desafios.iml" filepath="$PROJECT_DIR$/Desafios/Desafios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MeuCollections/MeuCollections.iml" filepath="$PROJECT_DIR$/MeuCollections/MeuCollections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Desafios/.idea/capgeminiFullStackJavaAndAngular.iml" filepath="$PROJECT_DIR$/Desafios/.idea/capgeminiFullStackJavaAndAngular.iml" />
+      <module fileurl="file://$PROJECT_DIR$/curso-dio-intro-collections/curso-dio-intro-collections.iml" filepath="$PROJECT_DIR$/curso-dio-intro-collections/curso-dio-intro-collections.iml" />
+    </modules>
+  </component>
+</project>
