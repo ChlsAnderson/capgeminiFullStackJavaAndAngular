@@ -1,11 +1,20 @@
 // a função gets é implementada dentro do sistema para ler as entradas(inputs) dos dados
 let N = gets();
 let clientes = [];
+let senhas = [];
 
-//implemente aqui o seu código
+for (let n = 0; n < N; N++) {
+  clientes[n] = parseInt(gets());
+  senhas[n] = gets().split(' ');
+
+  let senhasOrdenadas = Array.from(senhas[N]).sort((a, b) => b - a);
+  let contadorSemTroca = 0;
   
-
-};
+  for (let i = 0; i < senhas[n].length; i++) {
+    senhas[n][i] === senhasOrdenadas[i] && (contadorSemTroca++);
+  }
+  console.log(contadorSemTroca);
+}
 
 /* 
 
