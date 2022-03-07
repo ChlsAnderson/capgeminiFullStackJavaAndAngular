@@ -5,17 +5,17 @@ let totalDeDias = parseInt(gets());
 
 let qtdAnos, qtdMeses;
 
-qtdAnos = parseInt(          );
-totalDeDias= totalDeDias %       ;
+qtdAnos = parseInt(  totalDeDias / 365   );
+//totalDeDias= totalDeDias %  365 % 30    ;
 
-qtdMeses= parseInt(             );
-totalDeDias=                            ;
+qtdMeses= parseInt(  totalDeDias  %  365 / 30);
+totalDeDias=          totalDeDias %  365 % 30       ;
 
 let resultado = (qtdAnos + " ano(s) " + '\n' + 
 qtdMeses +" mes(es)" + '\n' +
 totalDeDias + " dia(s)");
 
-print(resultado);
+console.log(resultado);
 
 
 /* 
